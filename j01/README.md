@@ -1,9 +1,9 @@
 # Making a 3D Design 
 So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, but if you continue to practice your skills it's **learnability** (especially key commands) helps speed up the workflow.
 
-*Disclaimer* I am using a mac so some key commands may not translate accordingly with other operating systems. 
+*Disclaimer* I am using a Mac so some key commands may not translate accordingly with other operating systems. 
 
-The two main workspace features I will be using are the [layout](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) and [shading](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) features. When we open a new project we will see a default screen with three objects: a cube, a camera, and a light. For now, I’ll just delete the cube and light by selecting the cube and *shift-clicking* the light and then *pressing x* and click on *delete*. With just the camera left we can take a break and observe Blender’s **visual mapping**, we can distinguish what each feature may do by how it looks. The icons help a lot, you could almost predict what it could do based on how it appears. The main components are in the middle, and the edit options are on the right and left side, it's pretty obvious that we are using the middle part as the main focus area.  
+The two main workspace features I will be using are the [layout](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) and [shading](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) features. When we open a new project we will see a default screen with three objects: a cube, a camera, and a light. For now, I’ll just delete the cube and light by selecting the cube and *shift-clicking* the light and then *pressing x* and clicking on *delete*. With just the camera left we can take a break and observe Blender’s **visual mapping**, we can distinguish what each feature may do by how it looks. The icons help a lot, you could almost predict what it could do based on how it appears. The main components are in the middle, and the edit options are on the right and left side, it's pretty obvious that we are using the middle part as the main focus area.  
 
 ![image](/assets/UXP1.jpg) 
 
@@ -21,4 +21,41 @@ Let’s add our text! Finding out how to add text should be straightforward. You
 
 ![video](https://github.com/UsabilityEngineering/ux-portfolio-Eddieprestegui/assets/142946125/a5034319-f6df-413c-b511-e828f8ed22ed)
 
-Now that I have my text layed out I want to resize it. Selecting the text > press *s* > and using the trackpad or mouse to resize. (Left to resize it to a smaller amount, right to resize it to a bigger amount). Let’s rotate the text so it’s standing straight up. Select the text > press *r* (rotate) > press *x* (x-axis) > type *90* (90 degrees) > Enter. To extrude the text, select the data on the right side (a) under geometry lets focus on the extrude tab. Extrude is the amount of depth of an object in blender (in most graphic design programs as well), so right now my text is in a 2D format. I could change the extrude amount to whatever I see fit, I’ll extrude it to 0.06m. We should have something like this: 
+Now that I have my text set out I want to resize it. Selecting the text > press *s* > and using the trackpad or mouse to resize. (Left to resize it to a smaller amount, right to resize it to a bigger amount). Let’s rotate the text so it’s standing straight up. Select the text > press *r* (rotate) > press *x* (x-axis) > type *90* (90 degrees) > Enter. To extrude the text, select the data on the right side (a) under geometry lets focus on the extrude tab. Extrude is the amount of depth of an object in blender (in most graphic design programs as well), so right now my text is in a 2D format. I could change the extrude amount to whatever I see fit, I’ll extrude it to 0.06m. We should have something like this: 
+
+![image](/assets/UXP3.jpg)
+
+Cool! Now I can actually start designing. I want to make sure the origin is set in the middle that way if I want to change its direction or animate this in the future it’ll do so accordingly. Select your text again > right click > set origin > origin to geometry. 
+
+![image](/assets/UXP4.jpg)
+
+In order to sculpt and edit the text properly I must convert it into a mesh material. To do that select the text > right-click > convert to > mesh. Now the text is in a material form. This step is vital! You can see the difference if we hit *tab*. Before I could only edit the text by writing in words, now I can edit a specific area, which is split between the black lines. Press *tab* again to go back to object mode. You know you made a mistake if you start sculpting your object and it doesn't work as it was intended. It usually distorts the text in a bad way. Memorizing this is very important because that way you will know the root of the problem.    
+
+![image](/assets/UXP5.jpg)
+
+![image](/assets/UXP6.jpg)
+
+Let’s a modifier. Located on the right side (wrench icon) lets add a remesh modifier. Select smooth shading and let’s change the voxel size until the object design appears. The lower the voxel size the better (make sure you have a good computer for that). Make sure to apply the modifier by selecting the down arrow and selecting apply, if you skip this the remesh won't work when you render your project out. If I go to edit mode (*tab*) you could now see that the object is separated in smaller parts, essentially making it look black. Lets go back to object mode by selecing tab again. 
+
+![image](/assets/UXP7.jpg)
+
+![image](/assets/UXP8.jpg)
+
+I’m going to be a bit fancy and add a cloud background. Select the shading workspace feature (the tab on top) and make sure your on world view. Add an environment texture, *shift a*, and make sure the color output on the environment texture is on the surface input of world output. Nice now lets add some lighting, press *shift a* and add light I’ll be using area lighting. I changed the power to 1000w that way you can actually see the light effect and moved it around until I was satisfied.  
+
+![image](/assets/UXP9.jpg)
+
+Let’s sculp our object, under object mode select sculpt mode. Blender has different types of sculpt types you can choose from, I’ll select the mesh filter. You could change between each effect I chose inflate and random. With your mouse click on your object until your satisfied with what you got. Now Im going to start adding materials. First Im going to change the shading view to render (The four circles on the top right). Under the material tab on the right side I’ll get rid of the material and add a new one. I changed the color to green, added a bit of a metallic look, and turned the roughness down to 0. I also separate my object in two so I have individual control between each letter. To do that switch to edit mode select on one letter I chose x and then *press L* to select the whole object then *press p* and select selection it should now be its own thing. Now our object is looking like an emerald. 
+
+![video](https://github.com/UsabilityEngineering/ux-portfolio-Eddieprestegui/assets/142946125/9bb5d609-35ec-4fd7-8d22-f7f7c993a60d)
+
+Since I didnt delete the camera it should be in the project. Though I do want to changed the dimensions of the camrea to do that select output on the right side it should look like a printer. Im going to change the pixels to a square image so 1920 x 1920 works for me. To view the camera results click on the camera icon under options, I want to make the design fits the whole camera view so I’ll do that by moving it around. 
+
+![image](/assets/UXP10.jpg)
+
+A couple things to change on the render setting (camera icon, right side) is making sure a couple things are selected. I selected ambient occlusion, bloom, screen space reflections, high quality normals, and under colormanagment > look > very high contrast. On output change the output to desktop, file format to JPEG, and quality to 100%. Hit render image or *press F12* a screen should pop up select image > save a copy > name it > and it should appear in your desktop. 
+
+![image](/assets/UX.jpg)
+
+Overall, I would say that this project went smoothly, everything was working as intended. There’s so many creative ways to do this. One thing I love about blender is that you have full control of the camera, there’s so many quirks that are actually features in a real camera! I also love the lighting feature, playing around with light helps focus the audience on my composition, it’s also a fun way to learn how to use it in real life. Hopefully you learned something today, thanks for reading!  
+

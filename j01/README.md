@@ -1,5 +1,7 @@
 # Making a 3D Design 
-So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, but if you continue to practice your skills it's **learnability** (especially key commands) helps speed up the workflow. 
+So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, but if you continue to practice your skills it's **learnability** (especially key commands) helps speed up the workflow.
+
+*Disclaimer* I am using a mac so some key commands may not translate accordingly with other operating systems. 
 
 The two main workspace features I will be using are the [layout](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) and [shading](https://docs.blender.org/manual/en/latest/interface/window_system/workspaces.html) features. When we open a new project we will see a default screen with three objects: a cube, a camera, and a light. For now, I’ll just delete the cube and light by selecting the cube and *shift-clicking* the light and then *pressing x* and click on *delete*. With just the camera left we can take a break and observe Blender’s **visual mapping**, we can distinguish what each feature may do by how it looks. The icons help a lot, you could almost predict what it could do based on how it appears. The main components are in the middle, and the edit options are on the right and left side, it's pretty obvious that we are using the middle part as the main focus area.  
 
@@ -13,9 +15,10 @@ Before we move on, make sure to save your project by:
 
 A friendly reminder to press *command s* every 5 minutes or so, that way if your project randomly crashes you have the most recent version.
 
-Let’s add our text! Finding out how to add text should be straightforward. You could select *add* (under layout) or use the key command *shift a* and select the text. To change the viewport, so I can see the text from above, select the *z-axis* (making sure it’s in the positive value). To edit our text *press tab* and for now, I’ll use “UX” as our design and *press tab* again to change from edit mode to object mode.  
+Let’s add our text! Finding out how to add text should be straightforward. You could select *add* (under layout) or use the key command *shift a* and select the text. To change the viewport, so I can see the text from above, select the *z-axis* (making sure it’s in the positive value). To edit our text *press tab* (brings us to edit mode) and for now, I’ll type “UX” as our design and *press tab* again to change from edit mode back to object mode.  
 
 ![image](/assets/UXP2.jpg) 
 
-![video](/assets/ux1.mp4)
+![video](https://github.com/UsabilityEngineering/ux-portfolio-Eddieprestegui/assets/142946125/a5034319-f6df-413c-b511-e828f8ed22ed)
 
+Now that I have my text layed out I want to resize it. Selecting the text > press *s* > and using the trackpad or mouse to resize. (Left to resize it to a smaller amount, right to resize it to a bigger amount). Let’s rotate the text so it’s standing straight up. Select the text > press *r* (rotate) > press *x* (x-axis) > type *90* (90 degrees) > Enter. To extrude the text, select the data on the right side (a) under geometry lets focus on the extrude tab. Extrude is the amount of depth of an object in blender (in most graphic design programs as well), so right now my text is in a 2D format. I could change the extrude amount to whatever I see fit, I’ll extrude it to 0.06m. We should have something like this: 

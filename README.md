@@ -1,6 +1,6 @@
 # UX Portfolio
 ![Image](/assets/IMG_4107.JPG)
-Hi my name is Eduardo Prestegui, but I go by Eddie. I am majoring in Recording arts, but I'm thinking about changing my major to computer science. I'm a transfer student from Los Angeles (Citrus College). 
+Hi, my name is Eduardo Prestegui, but I go by Eddie. I'm from Azusa, CA, I'm a transfer student from Citrus College, and I'm majoring in Computer Science.
 
 ## UX Team Project
 
@@ -8,4 +8,4 @@ Coming soon.
 
 ## UX Journal
 
-[Read about my experience with Bash](j01/)
+[Making a 3D Design](j01/)

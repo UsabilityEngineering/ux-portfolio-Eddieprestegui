@@ -11,8 +11,8 @@ Before we move on, make sure to save your project by:
 3. Name it
 4. & finally select save blender file 
 
-A friendly reminder to press *command s* every 5 minutes or so, that way if your project randomly crashes you have the most recent version of your project.
+A friendly reminder to press *command s* every 5 minutes or so, that way if your project randomly crashes you have the most recent version.
 
-Let’s add our text! Finding out how to add text should be straightforward. You could select *add* (under layout) or use the key command *shift a* and select the text, simple right. To change the viewport, so I can see the text from above, select the *z-axis* (making sure it’s in the positive value). To edit our text *press tab* and for now, I’ll use “UX” as our design and *press tab* again to change from edit mode to object mode.  
+Let’s add our text! Finding out how to add text should be straightforward. You could select *add* (under layout) or use the key command *shift a* and select the text. To change the viewport, so I can see the text from above, select the *z-axis* (making sure it’s in the positive value). To edit our text *press tab* and for now, I’ll use “UX” as our design and *press tab* again to change from edit mode to object mode.  
 
 

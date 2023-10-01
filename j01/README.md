@@ -15,4 +15,7 @@ A friendly reminder to press *command s* every 5 minutes or so, that way if your
 
 Let’s add our text! Finding out how to add text should be straightforward. You could select *add* (under layout) or use the key command *shift a* and select the text. To change the viewport, so I can see the text from above, select the *z-axis* (making sure it’s in the positive value). To edit our text *press tab* and for now, I’ll use “UX” as our design and *press tab* again to change from edit mode to object mode.  
 
+![image](/assets/UXP2.jpg) 
+
+![video](/assets/ux1.mp4)
 

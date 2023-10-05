@@ -1,5 +1,5 @@
 # Making a 3D Design 
-So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, but if you continue to practice your skills it's **learnability** (especially key commands) helps speed up the workflow.
+So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, but if you continue to practice your skills it's **learnability** (especially key commands) that helps speed up the workflow.
 
 *Disclaimer* I am using a Mac so some key commands may not translate accordingly with other operating systems. 
 
@@ -11,7 +11,7 @@ Before we move on, make sure to save your project by:
 1. Pressing *command s*
 2. Pick your destination (I recommend your desktop so it's easily accessible)
 3. Name it
-4. & finally select save blender file 
+4. & finally select Save Blender file 
 
 A friendly reminder to press *command s* every 5 minutes or so to avoid unsaved progress when your project randomly crashes.
 
@@ -21,7 +21,7 @@ Let’s add our text! Finding out how to add text should be straightforward. You
 
 ![video](https://github.com/UsabilityEngineering/ux-portfolio-Eddieprestegui/assets/142946125/a5034319-f6df-413c-b511-e828f8ed22ed)
 
-Now that I have my text set out I want to resize it. Selecting the text > press *s* > and using the trackpad or mouse to resize (Left to resize it to a smaller amount, right to resize it to a bigger amount). Let’s rotate the text so it’s standing straight up. Select the text > press *r* (rotate) > press *x* (x-axis) > type *90* (90 degrees) > Enter. To extrude the text, select the data on the right side (a) under geometry lets focus on the extrude tab. Extrude is the amount of depth of an object in Blender (in most graphic design programs as well), so right now my text is in a 2D format. I could change the extrude amount to whatever I see fit, I’ll extrude it to 0.06m. We should have something like this: 
+Now that I have my text set out I want to resize it. Selecting the text > press *s* > and use the trackpad or mouse to resize (Left to resize it to a smaller amount, right to resize it to a bigger amount). Let’s rotate the text so it’s standing straight up. Select the text > press *r* (rotate) > press *x* (x-axis) > type *90* (90 degrees) > Enter. To extrude the text, select the data on the right side (a) under geometry lets focus on the extrude tab. Extrude is the amount of depth of an object in Blender (in most graphic design programs as well), so right now my text is in a 2D format. I could change the extrude amount to whatever I see fit, I’ll extrude it to 0.06m. We should have something like this: 
 
 ![image](/assets/UXP3.jpg)
 
@@ -35,7 +35,7 @@ To sculpt and edit the text properly I must convert it into a mesh material. To 
 
 ![image](/assets/UXP6.jpg)
 
-Let’s a modifier. Located on the right side (wrench icon) let's add a remesh modifier. Select smooth shading and let’s change the voxel size until the object design appears. The lower the voxel size the better (make sure you have a good computer for that). Make sure to apply the modifier by selecting the down arrow and selecting apply, if you skip this the remesh won't work when you render your project out. If I go to edit mode (*tab*) you can now see that the object is separated into smaller parts, essentially making it look black. Let's go back to object mode by selecting tab again. 
+Let’s a modifier. Located on the right side (wrench icon) let's add a remesh modifier. Select smooth shading and let’s change the voxel size until the object design appears. The lower the voxel size the better (make sure you have a good computer for that). Make sure to apply the modifier by selecting the down arrow and selecting apply, if you skip this the remesh won't work when you render your project out. If I go to edit mode (*tab*) you can now see that the object is separated into smaller parts, essentially making it look black. Let's go back to object mode by selecting *tab* again. 
 
 ![image](/assets/UXP7.jpg)
 
@@ -49,13 +49,13 @@ Let’s sculpt our object, under object mode select sculpt mode. Blender has dif
 
 ![video](https://github.com/UsabilityEngineering/ux-portfolio-Eddieprestegui/assets/142946125/9bb5d609-35ec-4fd7-8d22-f7f7c993a60d)
 
-Since I didn't delete the camera it should be in the project. Though, I do want to change the dimensions of the camera to do that select output on the right side it should look like a printer. I'm going to change the pixels to a square image so 1920 x 1920 works for me. To view the camera results click on the camera icon under options, I want to make the design fits the whole camera view so I’ll do that by moving it around. 
+Since I didn't delete the camera it should be in the project. However, I do want to change the dimensions of the camera to do that select output on the right side it should look like a printer. I'm going to change the pixels to a square image so 1920 x 1920 works for me. To view the camera results click on the camera icon under options, I want to make the design fit the whole camera view so I’ll do that by moving it around. 
 
 ![image](/assets/UXP10.jpg)
 
-A couple of things need to be tweaked on the render settings (camera icon, right side) to make sure our render results come out as accurate as possible. I selected ambient occlusion, bloom, screen-space reflections, high-quality normals, and under color management > look > very high contrast. On output, change the output to desktop, file format to JPEG, and quality to 100%. Hit render image or *press F12* a screen should pop up select image > save a copy > name it > and it should appear on your desktop. 
+A couple of things need to be tweaked on the render settings (camera icon, right side) to make sure our render results come out as accurately as possible. I selected ambient occlusion, bloom, screen-space reflections, high-quality normals, and under color management > look > very high contrast. On output, change the output to desktop, file format to JPEG, and quality to 100%. Hit render image or *press F12* a screen should pop up select image > save a copy > name it > and it should appear on your desktop. 
 
 ![image](/assets/UX.jpg)
 
-Overall, I would say that this project went smoothly, everything was working as intended. There are so many creative ways to do this. One thing I love about Blender is that you have full control of the camera, there are so many quirks that are features in a real camera! I also love the lighting feature, playing around with light helps bring life to the composition, and it’s also a fun way to learn how to use it in real life. Hopefully, you learned something today, thanks for reading!  
+Overall, I would say that this project went smoothly, everything was working as intended. There are so many creative ways to do this. One thing I love about Blender is that you have full control of the camera, there are so many quirks that are featured in a real camera! I also love the lighting feature, playing around with light helps bring life to the composition, and it’s also a fun way to learn how to use it in real life. Hopefully, you learned something today, thanks for reading!  
 

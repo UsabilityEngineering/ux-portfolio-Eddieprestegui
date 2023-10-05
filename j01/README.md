@@ -36,7 +36,7 @@ To sculpt and edit the text properly I must convert it into a mesh material. To 
 
 ![image](/assets/UXP6.jpg)
 
-Let’s a [modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/introduction.html#index-0). Located on the right side (wrench icon) let's add a remesh modifier. Select smooth shading and let’s change the voxel size until the object design appears. The lower the voxel size the better (make sure you have a good computer for that). Make sure to apply the modifier by selecting the down arrow and selecting apply, if you skip this the remesh won't work when you render your project out. If I go to edit mode (*tab*) you can now see that the object is separated into smaller parts, essentially making it look black. Let's go back to object mode by selecting *tab* again. 
+Let’s add a [modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/introduction.html#index-0). Located on the right side (wrench icon) let's add a remesh modifier. Select smooth shading and let’s change the voxel size until the object design appears. The lower the voxel size the better (make sure you have a good computer for that). Make sure to apply the modifier by selecting the down arrow and selecting apply, if you skip this the remesh won't work when you render your project out. If I go to edit mode (*tab*) you can now see that the object is separated into smaller parts, essentially making it look black. Let's go back to object mode by selecting *tab* again. 
 
 ![image](/assets/UXP7.jpg)
 

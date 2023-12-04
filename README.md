@@ -9,3 +9,4 @@ Coming soon.
 ## UX Journal
 
 [Making a 3D Design](j01/)
+[Using Midi in Ableton](j02/)

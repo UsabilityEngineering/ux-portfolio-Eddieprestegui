@@ -1,5 +1,5 @@
 # Making a 3D Design 
-### Eddie Prestegui 10/04/23
+### Eddie Prestegui 12/08/23
 So today I will be creating a 3D design using [Blender](https://www.blender.org). Blender is a powerful open-source (FREE!!!) computer software used for 3D effects, animation, visual effects, and pretty much anything you can think of. Learning Blender can be a bit frustrating at first, its **learnability** (especially key commands) is different from other programs since it has a unique workflow. Once you adapt and learn how to convert your ideas into actual 3D models/designs it becomes second nature to create. 
 
 *Disclaimer*: I am using a Mac so some key commands may not translate accordingly with other operating systems. 
